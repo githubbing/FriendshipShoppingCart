@@ -5,7 +5,8 @@ using Owin;
 namespace FriendshipShoppingCart
 {
     public partial class Startup
-    {//startup
+    {
+        
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
